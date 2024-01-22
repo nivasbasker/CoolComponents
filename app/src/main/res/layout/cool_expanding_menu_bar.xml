@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/items_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_toEndOf="@id/selected_item"
+        android:background="@drawable/background_items_layout"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingVertical="3dp"
+        android:visibility="invisible">
+
+    </LinearLayout>
+
+
+    <com.zio.coolcomponents.CoolIcons
+        android:id="@+id/selected_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="5dp"
+        app:active="true" />
+
+</RelativeLayout>

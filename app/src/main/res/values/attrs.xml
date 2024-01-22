@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CoolExpandingMenuBar">
+        <attr name="menuResource" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CoolIcons">
+        <attr name="label" format="string" />
+        <attr name="icon" format="reference" />
+        <attr name="active" format="boolean" />
+    </declare-styleable>
+</resources>
