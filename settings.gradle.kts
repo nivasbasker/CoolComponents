@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "CoolComponents"
-include(":app")
+include(":app",":library")
